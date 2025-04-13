@@ -1,0 +1,6 @@
+Virtuelle Umgebung deaktivieren:
+deactivate
+
+Entfernt (.venv) aus dem Prompt und stellt den globalen PATH wieder her.
+
+Mit source .venv/bin/activate zurück.
