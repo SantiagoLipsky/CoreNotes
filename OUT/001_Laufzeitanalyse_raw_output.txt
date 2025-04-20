@@ -1,0 +1,614 @@
+5
+
+itanalyse
+
+Laufze
+
+x
+
+©
+oO
+:O
+OD
+go)
+
+Q
+
+(DB
+c
+oc
+
+ES
+
+N) «
+| HI Ei
+Be}
+
+Hochschule
+
+Hof
+
+PB u, .
+
+University of
+Applied Sciences
+
+r
+
+2m
+
+[Fer 33 BIRCERES
+
+2 er ,,
+
+.y
+
+
+Hochschule
+Hof
+
+University of
+
+Sortieren eines Arrays mit Zahlen - Analyse der Laufzeit verschiedener Algorithmen Applied Sciences
+
+_ Bubblesort als einfacher Algorithmus für das Sortieren
+_ Überprüfe in dem Array, ob eine kleinere Zahl auf eine größere Zahl folgt
+_ Wenn dies der Fall ist, dann vertausche diese beiden Zahlen
+
+_ Ist dies nicht der Fall, dann ist die Liste sortiert
+
+EIEJEIEDE
+
+
+Hochschule
+Hof
+
+N ° University of
+Implementierung eines Bubblesort Applied Seiences
+
+public void sort (int[] array) {
+int h;
+boolean found = true;
+
+while (found) {
+found = false;
+for (int i = 0; i < array.length-1; i++) {
+if (array[i] > arrayl[itl]) {
+
+h = arrayli+tl];
+arraylitl1] = arrayli];
+array[li] = h;
+found = true;
+
+
+Hochschule
+Hof
+
+University of
+Applied Sciences
+
+Sesalmenlensunm argoscne Vergleich Bubblesort mit Quicksort
+STTETL EE | _  Quicksort aus der Java Library
+
+202 jeem on 0 hr ı a langesı tern; Arrays.sort(int[] a)
+
+Seren resaleı _ Arrays mit verschiedenen Größen erzeugen
+
+a “ grolsen Arrays messen
+
+ıy
+
+- . ..
+. re "ma - - oe
+Sıfzsrenr vu'f = 11 _ zrarre
+Sy DouZoo -..Zu. I | Zu DO ur
+EIBPa Pe .m-.- lo zer” - SS 2... 2. >. or. - == - u. - == oo une _ = ”.- Im) ---= "on
+x E m 0.r oo rwer zrart Do resj|tr ar2rt . sr2v eo ar. 2» - Ir ran o arrast
+_- a0 "“ _ ou -- yV- - - - .- ZT... LIDO... zum wr u. = ..os _—-... een oo. . 2 Uns Zu Zune R
+=. - . - — _ - - — Pd - — ———.
+> | eo = zar.2.rr«. “u .r ne -z=22nen]
+.-. —_-.- _ Zu. ur - ZZ... ir _ ZZ. .
+Sıtzarer en vmerevetin gr io:
+ZYD Tune a0. on nn. on. | .
+.. - ,
+une ze zs.ıer = ETZSNYYaitıl]!
+— - — m u nn N = r
+- , -
+Se Haar mer “ een e- or Done Zumoır
+=“ 2 j I ä" ‚ IE rn
+se er hu nn — u | r
+Dar urn sr TH men lärrır .n zum u ei FR
+STLALLI WILD TAINIILEIITN SX_o=E LINE -
+- . » - - -
+Dane - - or mn ze = we Turn za Irtr ||
+o.ı_ı_ = _- - I... 02 an Z ..zı on. u _ In... |
+- .
+.. .. - - _ =: ._
+Z .- vr. mr wei; v2 veii:
+=. ._ıo Bun _-n ..zı nD.llIo r
+- - - - - _ - Bu el .
+elta t-mal-ur nu sen: = “atrr „etımmet-mai-ve ru jenen .
+m-.u— y Jo — - —...o]1---.--.7 _' _. _ ..Zzıit Z- mo yo - oo] ---.--..[ N r
+I) „nn =." _. — -._ Do, re man "entf 707.» Zu Se Ze ' -
+Deu un = 2) „N _i/äAysrenr servar- matt = 11: TI N as
+ul _..0.. 2... _ 07 _-ı yY Du Tina 2-7... Ti. __ ol u... „—_ IN ‚
+- - - - . -_- - - =_-
+Irınmuoörresm os = wreiy Irırrirreermı 13 7: ztneeumnet Dtrmssar | #- z=j]:
+-—o PER ep GEIGE BE Sr ] .— — nn Per ee GE BEI BE rn tem. Te a a u 0 ne ‚=-—--—. r
+- > - Pas 22 - > 22 = ==>
+a = mr ZZ. ro Ion j \ wo .
+I... 0212 --. - II TUI. 1I_..0..0 -----, ------.4 _. 02 r
+
+
+Hochschule
+Hof
+
+University of
+
+Vergleich der Zeiten für verschiedene Größen Applied Sciences
+
+10.000 148 1.000.000 260
+20.000 624 2000.000 228
+30.000 1.484 3.000.000 303
+40.000 2.588 4.000.000 419
+50.000 4.051 5.000.000 534
+60.000 5.889 6.000.000 647
+70.000 7.968 7.000.000 743
+80.000 10.429 8.000.000 850
+90.000 13.226 9.000.000 972
+
+100.000 16.242 10.000.000 1.081
+
+
+Hochschule
+
+EM Hof
+
+University of
+
+Vergleich des funktionalen Zusammenhangs zwischen der Größe des Arrays und der Laufzeit aopteasciences
+
+18000
+
+16000
+
+14000
+
+12000
+
+10000
+
+s000
+
+6000
+
+A000
+
+2000
+
+Bubblesort - Zeiten
+
+140
+
+120
+
+100
+
+so
+
+60
+
+a0
+
+20
+
+Bubblesort - Wurzel aus Zeiten
+
+10
+
+1200
+
+1000
+
+s1010)
+
+600
+
+A0O
+
+200
+
+Quicksort - Zeiten
+
+
+Hochschule
+Hof
+
+University of
+
+Schlussfolgerungen Applied Sciences
+
+_ Der Aufwand für das Sortieren mit dem Bubblesort scheint quadratisch mit der Länge n des Arrays zu wachsen
+
+_ Der Aufwand für das Sortieren mit dem Quicksort scheint linear mit der Länge n des Arrays zu wachsen ...
+... tatsächlich wächst der Aufwand mit n * log(n)
+
+_ Das Wachstum des (Zeit-) Aufwands mit der Größe der Eingabe kann aus dem Programm abgeleitet werden
+
+
+Zeitaufwand für ein Array mit n Elementen
+
+Schwieriger zu analysieren!
+
+e Ungünstigster Fall: die kleinste Zahl ist
+an der letzten Position des Arrays
+In diesem Fall muss die Schleife n-1
+
+while (found) mal durchlaufen werden
+found = false;
+for (int i = 0; i < array.length-1; i++) {
+if (array[i] > arrayli+ti]) {
+h = arrayli+tl];
+
+public void sort (int[] array) {
+int h;
+boolean found = true;
+
+arrayli+l] arrayli];
+array[i] =
+
+£ d = t 7 . . .
+} u Ds Die Schleife wird n-1 mal durchlaufen
+
+} Als Konsequenz werden Anweisungen in der inneren For-Schleife
+im ungünstigsten Fall (n-1) * (n-1) mal durchlaufen.
+
+Hochschule
+Hof
+
+University of
+Applied Sciences
+
+
+Hochschule
+Hof
+
+University of
+
+Vergleich des Laufzeitverhaltens verschiedener Algorithmen Applied Sciences
+
+Für den Bubblesort wächst die Laufzeit mit (n-1)*(n-1)=n?-2*’n+1
+
+Bei großen Arrays wird die Laufzeit von dem am schnellsten wachsenden Term bestimmt ...
+...in diesem Fall also von n?
+
+Für zwei andere Algorithmen könnte der Aufwand mit 2*n? + 4*n + 12 sowie 4*n +76 abgeschätzt werden
+Die am schnellsten wachsende Terme in dieser Summe sind 2 * n?sowie4”*n.
+
+Für den Vergleich spielen auch die Koeffizienten 2 und 4 keine Rolle. Entsprechend werden hier nur die Potenzen
+für den Vergleich betrachtet: n°, n?, n!
+
+Tatsächlich sind die Koeffizienten sogar irreführend, da die genauen Ausführungszeiten von dem
+Rechenaufwand für einzelnen Anweisungen in den Schleifen abhängen
+
+Mit dieser Analyse kann also nur die Form der Kurve festgestellt werden, welche den Zusammenhang zwischen
+Größe der Eingabe und Laufzeit repräsentiert > Vorauswahl der Algorithmen
+
+Algorithmen mit identischen Formen von Kurven (zum Beispiel quadratisch) müssen dann mit Hilfe von
+Benchmarks verglichen werden (Implementierungen mit definierten Eingaben unterschiedlicher Größe)
+
+
+Hochschule
+Hof
+
+University of
+
+Ansatz Applied Sciences
+
+_ Die Laufzeit ist abhängig von
+
+__ der Menge der Daten
+
+_ technologischen Parametern
+
+_ Absolute Messungen sind nur bei direktem Vergleich mit definierter Umgebung sinnvoll
+_ Der Zusammenhang zwischen Laufzeit und Datenmenge ...
+
+_... lässt sich (fast) unabhängig von technologischen Parametern analysieren
+
+_ Mögliche Angaben
+
+_ Untergrenze
+
+Durchschnitt
+_ Obergrenze
+
+
+Hochschule
+Hof
+
+University of
+Applied Sciences
+
+Formalisierung -— Mathematische Formulierung
+
+__ Die O-Notation (auch Landau-Notation oder Landau-Symbole) gibt eine qualitative Abschätzung für den
+Verlauf einer Funktion
+
+_ feO(g):3c,n,:Vn:n2n,>|f(n)|<ce|g(n)|
+_ feQfg):3Ic,n,:Vn:n2zn=>|f(n)|>ce|g(n)|
+_ Füreine Funktion fwird der qualitative Aufwand mit einer einfacheren Funktion g angegeben
+
+_ Ansatz
+__ Berücksichtige nur den am schnellsten wachsenden Term
+
+_ Ignoriere Koeffizienten
+
+
+Hochschule
+Hof
+
+University of
+
+Typische Beispiele für den Verlauf einer Kurve Applied Seienoes
+
+O(1): Konstant _ Abschätzung des qualitativen Verlaufs
+
+O(log(n)): Logarithmisch 3en°-17en“+log(n) + 328
+
+Ofn): Linear _ Nur den am schnellsten wachsenden Term
+berücksichtigen
+
+O(log(n) en): Superlinear 3en
+
+on‘) Quadratisch _ Koeffizienten ignorieren
+
+O(n?): Kubisch n?
+
+O(2N): Exponentiell _ Ergebnis
+
+3en°-17en?+log(n) +328 e O(n?)
+
+
+Hochschule
+Hof
+
+Analyse von Algorithmen Anplied Sclenoss
+
+_ Schleifen analysieren
+
+_ Keine Schleife: O(1)
+
+_ Einzelne For-Schleife: O(n) (aber nicht immer) for (int i = 0; i < array.length; i++) {.. }
+_ Zwei ineinander geschachtelte For-Schleifen: O(n?) for (int i = 0; i < array.length; i++) {
+(es gibt Ausnahmen) for (int j = i; j < array.length; j++) {
++}
+
+_ Analyse einer While-Schleife ist kompliziert while (.) dt. J
+
+
+Hochschule
+Hof
+
+University of
+
+Beispiel: Finde das kleinste Element: O(n) Applied Sciences
+
+public int minElem(int data[]) {
+int min = Integer.MAX VALUE;
+for (int i = 1; i < data.length; i+t+) {
+ıf (min > datali]) {
+
+min = datalı];
+
+}
+
+return min;
+
+
+Hochschule
+Hof
+
+University of
+Applied Sciences
+
+Kleinste Differenz von zwei Zahlen: O(n?)
+
+// Quadratische Zeit, das geht auch besser!
+public int smallestDist (int datal]) {
+int dist = Integer.MAX VALUE;
+for (int i = 1; i < data.length - 1; i++) {
+for (int j = i; j < data.length; j++) {
+if (Math.abs (data[i] - data[j]) < dist) {
+dist = Math.abs (data[i] - data[lj]);
+
+}
+
+return dist;
+
+
+ILULUL
+
+Hochschule
+Hof
+
+University of
+Applied Sciences
+
+Vereinfachtes Rucksackproblem
+
+Rucksack mit Gewichtsgrenze (maximales Gewicht)
+
+Anzahl von n Gegenstände mit unterschiedlichen
+Gewichten
+
+Gibt es eine Auswahl an Gegenständen, so das genau
+das Grenzgewicht erreicht wird?
+
+
+BEE
+
+OO oO oO © © © © © OO ©
+
+0
+
+OO OO oO © © © © © ©
+
+_
+
+BE EN EEE
+
+Pr Dr CO co © © OO ©
+
+OO oO © PP Pr ro ©
+
+Po o  - r Oo Oo -»»
+
+_
+
+OO Pr © Pr CO r oo r © PR
+
+Hochschule
+Hof
+
+University of
+Applied Sciences
+
+Lösungsansatz
+
+Probiere alle Kombinationen durch
+
+Wähle die Kombination, welche genau das Zielgewicht
+hat
+
+Eventuell gibt es keine entsprechende Kombination
+
+Aufwand:
+
+Für jeden Gegenstand wird entschieden, ob er im
+Rucksack ist oder nicht (binäre Entscheidung)
+
+Daraus ergeben sich 2? Kombinationen
+
+
+Hochschule
+Hof
+
+University of
+
+Programm für das vereinfachte Rucksackproblem - Darstellung der Gegenstände Applied Sciences
+
+class Item {
+int weight;
+
+boolean selected = false;
+
+Item(int weight) {
+this.weight = weight;
+
+
+Hochschule
+Hof
+
+.. . . University of
+Programm für das vereinfachte Rucksackproblem — Klasse Knapsack Teil 1 Applied Sciences
+
+public class Knapsack {
+
+ArrayList<Item> items = new Arraylist<Item>() ; // alle Gegenstände
+
+void addItem(int weight) {
+items.add(new Item(weight));
+
+void printSelectedItenms() {
+for (Item item : items) f
+ıif (item.selected) f
+System.out.println(item.weight) ;
+
+
+Programm für das vereinfachte Rucksackproblem - Klasse Knapsack Teil 2
+
+int calcWeight () {
+int sum = 0;
+for (Item item : items) {
+ıif (item.selected) f
+
+sum += item.weight;
+
+}
+
+return sum;
+
+Hochschule
+Hof
+
+University of
+Applied Sciences
+
+
+Hochschule
+Hof
+
+University of
+
+Programm für das vereinfachte Rucksackproblem —- Klasse Knapsack Teil 3 Applied Soiences
+
+boolean findCombination (int limit) {
+boolean result = false; // Ergebnis gefunden
+boolean flag = true; // probiere weitere Kombinationen
+while (flag) {
+// erzeuge eine neue Kombination durch Ändern der Attribute „selected“
+if (calcWeight() == limit) {
+result = true;
+flag = false;
+
+break;
+
+}
+
+return result;
+
+
+Hochschule
+Hof
+
+University of
+
+Erzeuge eine neue Kombination Applied Sciences
+
+flag = false;
+for (Item item : items) f
+ıif (item.selected == false) {
+item.selected = true;
+flag = true;
+break;
+
+}
+
+else {
+
+Iitem.selected false;
+
+
+Hochschule
+Hof
+
+University of
+
+Aufwa nd für das Verfahren Applied Sciences
+
+Das Verfahren hat einen exponentiellen Aufwand
+Es gibt sicher effizientere Lösungen
+
+Gibt es eine Lösung, die den exponentiellen Aufwand vermeidet?
+
+Bisher wurde noch keine solche Lösung gefunden
+
+Statt der Laufzeit eines Programms ...
+
+... kann auch die minimale mögliche Laufzeit einer Aufgabenstellung ...
+... relativ zur Größe der Eingabe untersucht werden
+
+Dann existiert kein Algorithmus, der die Aufgabenstellung schneller löst
+
+Komplexitätstheorie

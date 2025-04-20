@@ -1,0 +1,16 @@
+**Zusammenfassung**
+
+Ein Algorithmus ist eine Anweisungsfolge zum Löschen eines bestimmten Problems. Die Komplexitätstheorie analysiert die Laufzeit und den Speicherbedarf von Algorithmen. Es gibt verschiedene Komplexitätsklassen, wie O(1), O(log n) oder O(n^2), die nach der Anzahl der Schritte oder dem benötigten Speicherplatz sortiert sind.
+
+**Hauptkonzepte**
+
+* **Algorithmus**: Eine Anweisungsfolge zum Löschen eines bestimmten Problems.
+* **Komplexitätstheorie**: Analyse der Laufzeit und des Speicherbedarfs von Algorithmen.
+* **Laufzeit**: Die Anzahl der Schritte, die ein Algorithmus benötigt.
+* **Speicherbedarf**: Die Anzahl der benötigten Speicherplatz.
+
+**Beispiel**
+
+Ein Beispiel für einen Algorithmus ist das Suchen nach dem kleinsten Element in einer Liste. Dieser Algorithmus hat eine Laufzeit von O(n), da er jedes Element in der Liste einmal durchsucht. Wenn die Liste 100 Elemente hat, benötigt der Algorithmus etwa 100 Schritte.
+
+Die Komplexitätstheorie hilft dabei zu bestimmen, wie effizient ein Algorithmus ist. Ein Algorithmus mit einer Laufzeit von O(n) ist beispielsweise in Bezug auf die Anzahl der Schritte effizienter als ein Algorithmus mit einer Laufzeit von O(n^2).

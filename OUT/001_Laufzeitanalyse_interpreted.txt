@@ -1,0 +1,35 @@
+Es sieht so aus, als ob du ein Dokument über Algorithmen und Komplexitätstheorie hast. Ich werde mich bemühen, dir eine kurze Zusammenfassung zu geben.
+
+**Algorithmen**
+
+Ein Algorithmus ist eine Anweisungsfolge, die verwendet wird, um ein bestimmtes Problem zu lösen. Einige Beispiele für Algorithmen sind:
+
+* Suchen nach dem kleinsten Element in einer Liste (O(n))
+* Berechnung der kleinsten Differenz zwischen zwei Zahlen (O(n^2))
+* Lösung des vereinfachten Rucksackproblems (exponentieller Aufwand)
+
+**Komplexitätstheorie**
+
+Die Komplexitätstheorie ist ein Teilbereich der Informatik, der sich mit der Analyse der Laufzeit und Speicherbedarf von Algorithmen beschäftigt. Einige wichtige Begriffe in der Komplexitätstheorie sind:
+
+* **Laufzeit**: Die Anzahl der Schritte, die ein Algorithmus benötigt, um ein Problem zu lösen.
+* **Speicherbedarf**: Die Anzahl der Speicherplatz, den ein Algorithmus benötigt, um ein Problem zu lösen.
+* **Komplexitätsklasse**: Eine Kategorie von Algorithmen mit ähnlicher Laufzeit oder Speicherbedarf.
+
+Einige wichtige Komplexitätsklassen sind:
+
+* **O(1)**: Konstante Laufzeit
+* **O(log n)**: Logarithmische Laufzeit
+* **O(n)**: Lineare Laufzeit
+* **O(n^2)**: Quadratische Laufzeit
+* **O(2^n)**: Exponentielle Laufzeit
+
+**Beispiele**
+
+Einige Beispiele für Algorithmen und ihre Komplexitätsklassen sind:
+
+* Suchen nach dem kleinsten Element in einer Liste (O(n))
+* Berechnung der kleinsten Differenz zwischen zwei Zahlen (O(n^2))
+* Lösung des vereinfachten Rucksackproblems (exponentieller Aufwand)
+
+Ich hoffe, diese Zusammenfassung hilft dir! Wenn du weitere Fragen hast, stehe ich gerne zur Verfügung.
