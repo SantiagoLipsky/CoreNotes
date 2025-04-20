@@ -1,7 +1,7 @@
 <h1 align="center">CoreNotes 📝</h1>
 
 <p align="center">
-  A Python script in development that uses Llama 3.1 8B to analyze GoodNotes notes and PDF lecture slides, creating concise summaries.
+  A Python script that uses Llama 3.1 8B to analyze GoodNotes notes and PDF lecture slides, to create concise summaries.
 </p>
 
 <p align="center">
