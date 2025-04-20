@@ -5,7 +5,7 @@ def summarize_text(input_text, language="de", max_length=2000):
     if language.lower() == "en":
         system_prompt = """You are an expert in text summarization. Summarize the following text concisely, translate to englisch if nessasary, retaining the core messages and providing a brief explanation of the main concepts. Include an example to illustrate the content. Respond in English: """
     else:  # Standardmäßig Deutsch
-        system_prompt = """Du bist ein Experte für Textzusammenfassungen. Fasse den folgenden Text präzise zusammen, behalte die Kernaussagen bei und liefere eine kurze Erklärung der Hauptkonzepte. Gib ein Beispiel, um die Inhalte zu verdeutlichen. Antworte auf Deutsch"""
+        system_prompt = """Du bist ein Experte für Textzusammenfassungen. Fasse den folgenden Text präzise zusammen, übersetzte auf Deutsch wenn nötig, behalte die Kernaussagen bei und liefere eine kurze Erklärung der Hauptkonzepte. Gib ein Beispiel, um die Inhalte zu verdeutlichen. Antworte auf Deutsch"""
     
     # Eingabe formatieren
     prompt = f"{system_prompt} {input_text}"
