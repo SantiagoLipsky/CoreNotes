@@ -1,0 +1,23 @@
+Ich helfe dir gerne bei der Zusammenfassung und Übersetzung des Textes.
+
+**Ursprünglicher Text:** "MAIS st UNL Plochu-hun | WIE (ndrrniet ash"
+
+**Übersetzt auf Deutsch:** "Was ist UML?"
+
+**Zusammenfassung:**
+
+UML steht für Unified Modeling Language und ist ein Modellierungsframework für das Objektorientierte Programmieren. Es wurde entwickelt, um eine gemeinsame Sprache für die Modellierung von Software zu schaffen.
+
+**Hauptkonzepte:**
+
+1. **Objektorientiertes Programmieren (OOP):** Eine Programmierparadigma, die sich auf Objekte und ihre Interaktionen konzentriert.
+2. **Modellierung:** Die Darstellung einer Software als abstrahiertes Modell, um ihre Struktur und Funktionalität zu visualisieren.
+
+**Beispiel:**
+
+Stellen wir uns eine einfache Bank-App vor, die ein Konto eröffnen, Geld einzahlen und abheben lassen soll. Mit UML können wir das Verhalten der App als Folgendes modellieren:
+
+* Ein Konto ist ein Objekt mit Eigenschaften (Kontonummer, Kontostand) und Methoden (Geld einzahlen, Geld abheben).
+* Die Bank-App interagiert mit dem Konto über die Methoden.
+
+UML ermöglicht es, solche Verhaltensweisen als abstrahiertes Modell darzustellen, um die Komplexität der Software zu reduzieren und ihre Funktionalität besser zu verstehen.
